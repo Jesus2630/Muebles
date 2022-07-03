@@ -62,7 +62,12 @@ h3 {
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: var(--blanco);
+    font-size: 1.8rem;
+}
+
+ul{
+    list-style: none;
 }
 
 img {
@@ -90,6 +95,21 @@ img {
 }
 
 /* Nav */
+.navegacion__items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
 
+.navegacion__link{
+    font-weight: bold;
+}
+
+.navegacion__link a:hover{
+    color: #d69048;
+}
+
+/* Hero */
 
 
