@@ -3,6 +3,93 @@
 :root{
     --color_negro:#140f07;
     --cololr-bg: #221d15;
+    --color-marron_claro:#d69048; 
+    --blanco: #ffffff;
+
+
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Oswald', sans-serif;
 }
 
 /* Configuración */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--cololr-bg);
+    font-size: 1.6rem;
+    line-height: 2;
+    color: var(--blanco);
+}
+
+/* Globales */
+h1, 
+h2, 
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 2rem 0;
+}
+h1 {
+    font-size: 3.5rem;
+}
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 5rem;
+    }
+}
+h2 {
+    font-size: 3.2rem;
+}
+@media (min-width: 768px) { 
+    h2 {
+        font-size: 4rem;
+    }
+}
+h3 {
+    font-size: 2.4rem;
+}
+@media (min-width: 768px) { 
+    h3 {
+        font-size: 3rem;
+    }
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Aplica en todos los elementos que finalicen con la __container */
+[class $="__container"]{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.header{
+    border-bottom: 1px solid var(--blanco);
+}
+.header__logo{
+    margin: 2rem 0;
+    text-align: center;
+}
+.logo__span{
+    color: #d69048;
+}
+
+/* Nav */
+
+
+
